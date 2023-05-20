@@ -1,0 +1,33 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <title>My AngularJS App</title>
+  <script src="angular.min.js"></script>
+</head>
+<body>
+<div ng-app="my-app">
+      <div ng-controller="mycontroller">
+          <div ng-init="students= ['john','david', 'other' ]">
+              <p>You want to hide students ?</p>
+              <input type="checkbox" ng-model="myVar">yes</input>
+               </br> {{myVar}}
+              <div ng-hide ="myVar">
+          <ol>
+               <li ng-repeat="student in students">
+                  {{student}}
+
+               </li>
+          </ol>
+              </div>
+       </div>
+  <hr>
+     </div>
+</div>
+<script>
+  angular.module('my-app',[])
+          .controller('mycontroller',function ($scope){
+          })
+</script>
+</body>
+</html>

@@ -1,0 +1,54 @@
+body{
+    margin: 0%;
+    background-color: white;c
+}
+.d4 li{
+    padding-top: 20px;
+    margin-top: 5px;
+    float: left;
+    padding-right: 40px;
+    list-style: none;
+}
+ul button{
+border-radius: 10px;
+}
+header{
+    height: 50px;
+    background-color: white;
+    list-style: none;
+    border: 1px solid grey;
+}
+.d3 ul li {
+    list-style: none;
+    float: left;
+    padding-left: 20px;
+    margin-top: auto;
+}
+.d3 a{
+    list-style: none;
+    float: left;
+    padding-left: 20px;
+    margin-top: auto;
+
+}
+.p{
+    padding-left: 20px;
+    float: left;
+}
+.d1{
+    width: 900px;
+    height: 170px;
+    border: 1px solid grey;
+    background-color: white;
+}
+.d1 input{
+    font-family: sans-serif;
+    background-color: grey;
+   margin-top: 10px;
+}
+.d2{
+    width: 900px;
+    height: 170px;
+    border: 1px solid grey;
+    background-color: white;
+}
